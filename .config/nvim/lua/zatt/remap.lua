@@ -54,7 +54,7 @@ vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 
 -- rebinds : in visual mode to not do '<,'>
-vim.keymap.set("v", ":", ":<C-U>")
+-- vim.keymap.set("v", ":", ":<C-U>")
 
 -- rebinds Ctrl+c to Esc
 vim.keymap.set("v", "<C-c>", "<Esc>")

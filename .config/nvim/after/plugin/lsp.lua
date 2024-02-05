@@ -15,7 +15,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
       "eslint",
-      "golangci_lint_ls",
+      "gopls",
       "jdtls",
       "jedi_language_server",
       "jsonls",
