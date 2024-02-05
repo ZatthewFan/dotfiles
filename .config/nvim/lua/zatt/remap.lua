@@ -63,3 +63,11 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 -- WhichKey shortcut
 vim.keymap.set("n", "<leader>wk", ":WhichKey")
 vim.keymap.set("v", "<leader>wk", ":WhichKey")
+
+-- enabling "B" "E" to enter visual mode and highlight words
+vim.keymap.set("n", "B", "<Esc>vb")
+vim.keymap.set("n", "E", "<Esc>ve")
+
+-- enabling Ctrl+Backspace to delete words
+vim.keymap.set("n", "<C-BS>", "vb<leader>di")
+vim.keymap.set("i", "<C-BS>", "<Esc>vb<leader>di")
