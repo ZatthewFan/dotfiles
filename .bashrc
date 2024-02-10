@@ -26,3 +26,5 @@ eval "$(pyenv init -)"
 # go setup
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+[[ -s "/home/zatthew/.gvm/scripts/gvm" ]] && source "/home/zatthew/.gvm/scripts/gvm"
